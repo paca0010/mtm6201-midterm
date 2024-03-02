@@ -1,0 +1,335 @@
+/*****Desktop Styles*****/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    margin: auto;
+}
+
+.main-head {
+    display: grid;
+    padding: 10px;
+}
+
+.main-nav {
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+    margin-left: -23px;
+    margin-right: -23px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav ul li {
+    padding-top: 2rem;
+}
+
+nav ul li a {
+    display: flex;
+    margin-top: 2em;
+    margin-left: 1px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul img {
+    width: 15rem;
+    padding-right: 35rem;
+    /* To seperate (give space) the logo and nav*/
+}
+
+/* Hover Effect for Main Nav */
+
+.nav-list li a {
+    text-decoration: none;
+    color: black;
+     transition: color 1.3s; /* Smooth color change */
+}
+
+.nav-list li a:hover {
+    color:#fa4a0c
+}
+
+
+/* CONTAINER */
+
+.container {
+    padding: 1.5em;
+
+}
+
+/* Home Page */
+
+.pophome {
+    background-image: url(../images/Rectangle\ 48.png);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-repeat: repeat;
+}
+
+.home1 {
+    background-position: center;
+    text-align: center;
+    padding: 1.5em 0em 0em 0em;
+    /* Top, Right, Bottom, Left */
+    width: 100%;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.home p {
+    background-position: center;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 100%;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.home h1 {
+    background-position: center;
+    padding: 0em 5em 0em 5em;
+    /* Top, Right, Bottom, Left */
+    margin: 0em 0em 0em 0em;
+    /* Top, Right, Bottom, Left */
+    font-size: 2.5em;
+    text-align: center;
+    color: white;
+}
+
+/* button in the header image */
+
+.button1 {
+    text-align: center;
+    padding-bottom: 9em;
+}
+
+.homebutt {
+    display: inline-block;
+    padding: 13px 50px;
+    /* Top, Right, Bottom, Left */
+    margin: 0 15px;
+    /*margin betweens */
+    background-color: transparent;
+    color: White;
+    border: 1px solid white;
+    border-radius: 1.2em;
+    font-size: 1.2rem;
+}
+
+.homebutt:hover {
+    background-color: #fa4a0c;
+}
+
+/* First Content */
+
+.group53 {
+    text-align: center;
+}
+
+.group5 {
+    margin-top: -10em;
+    margin-left: -7em;
+}
+
+.group5 img {
+    width: 400px;
+}
+
+
+/* SEPARATOR */
+
+.short-separator {
+    text-align: center;
+}
+
+.separator {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px auto;
+    width: 50%;
+}
+
+/* First content, How teh App Works */
+
+.how-app {
+    background-position: center;
+}
+
+.app-works h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+/* Create an Account Contect Section */
+
+.create-acc {
+    display: flex;
+    margin-bottom: -12em;
+}
+
+.account-img {
+    flex: 1;
+    padding: 0em 0em 5em 5em;
+    /* Top, Right, Bottom, Left */
+}
+
+.account {
+    flex: 1;
+    padding: 0em 13em 5em 0em;
+    /* Top, Right, Bottom, Left */
+    margin-top: 17em;
+}
+
+.account h1 {
+    color: #fa4a0c;
+}
+
+/* Explore Varieties Content Section */
+
+.explore {
+    display: flex;
+    margin-bottom: -10em;
+}
+
+.varieties {
+    flex: 1;
+    padding: 0em 5em 0em 10em;
+    /* Top, Right, Bottom, Left */
+    margin-top: 17em;
+}
+
+.explore-img {
+    flex: 1;
+    padding: 0em 0em 0em 0;
+    /* Top, Right, Bottom, Left */
+}
+.varieties h1 {
+    color: #fa4a0c;
+}
+
+/* Checkout Content Section */
+
+.checkout {
+    display: flex;
+}
+
+.check {
+    flex: 1;
+    padding: 20em 5em 5em 0em;
+    /* Top, Right, Bottom, Left */
+}
+
+.checkout-img {
+    flex: 1;
+    padding: 5em 0em 0em 5em;
+    /* Top, Right, Bottom, Left */
+
+}
+
+.check h1 {
+    color: #fa4a0c;
+}
+
+/* BOTTOM HEADER CONTENT SECTION */
+
+/* Home Page */
+
+.down {
+    background-image: url(../images/Rectangle\ 47.png);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-repeat: repeat;
+    padding-top: 8em;
+}
+
+
+.down-app p {
+    background-position: center;
+    text-align: center;
+    padding-bottom: 2em;
+    width: 100%;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.down-app h1 {
+    background-position: center;
+    padding: 0em 5em 0em 5em;
+    /* Top, Right, Bottom, Left */
+    margin: 0em 0em 0em 0em;
+    /* Top, Right, Bottom, Left */
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+
+/* button in the header image */
+
+.button2 {
+    text-align: center;
+    padding-bottom: 9em;
+}
+
+.downbutt {
+    display: inline-block;
+    padding: 13px 50px;
+    /* Top, Right, Bottom, Left */
+    margin: 0 10px;
+    /*margin betweens */
+    background-color: transparent;
+    color: White;
+    border: 1px solid white;
+    border-radius: 0.5em;
+    font-size: 1rem;
+}
+
+.downbutt:hover {
+    background-color: #fa4a0c;
+}
+
+
+/* FOOTER STYLES */
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo img {
+    width: 15rem;
+    padding-right: 6rem;
+    padding-left: 6em;
+    /* To seperate the logo and nav*/
+}
+
+.social-icon {
+    font-size: 3em;
+    padding-left: 5rem;
+}
+
+.copyright {
+    flex: 1;
+    font-size: 12px;
+    margin-left: 15em;
+}

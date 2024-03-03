@@ -222,13 +222,13 @@ body {
     /* button in the header image */
 
     .button2 {
-        text-align: center;
-        padding-bottom: 9em;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 3em;
     }
 
     .downbutt {
-        display: inline-block;
-        padding: 13px 50px;
+        padding: 13px 40px;
         /* Top, Right, Bottom, Left */
         margin: 0 10px;
         /*margin betweens */
@@ -239,9 +239,44 @@ body {
         font-size: 1rem;
     }
 
+    .button2 .downbutt:first-child::before {
+        content: "Buy now";
+    }
+
+    .button2 .downbutt:last-child::before {
+        content: "Try for free";
+    }
+
     .downbutt:hover {
         background-color: #fa4a0c;
     }
+
+    /* FOOTER STYLES */
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo img {
+        visibility: hidden;
+    }
+    
+    .social-icon {
+        display: flex;
+        flex-direction: row;
+        font-size: 3em;
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+
+    .copyright {
+        flex: 1;
+        font-size: 12px;
+        margin-left: 7em;
+        margin-right: -14em;
+    }
+
 
 }
 

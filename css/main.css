@@ -1,36 +1,51 @@
-/* General Styles */
 body {
     font-family: 'Open Sans', sans-serif;
     color: black;
     margin: auto;
 }
 
-/* Mobile Styles */
+/******MObile Styles******/
 @media only screen and (max-width: 759px) {
 
-    /* Container */
+
     .container {
-        max-width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
         padding: 20px;
-        box-sizing: border-box;
     }
 
-    /* Home Section */
+
+
+    .home1 {
+        color: gray;
+    }
+
+    .home p {
+        color: gray;
+    }
+
     .pophome {
+        justify-content: center;
         text-align: center;
-        margin: 0 auto; /* Center horizontally */
+        margin: 0 -8em 0 4em; /* Top, Right, Bottom, Left */
     }
 
     .button1 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 15px;
+        /* Center items horizontally */
     }
 
     .homebutt {
-        margin-bottom: 15px;
+        margin: 5px 0;
+        /* Add margin between buttons */
         padding: 13px 50px;
+        /* Top, Right, Bottom, Left */
+        margin: 0 0 15px 0;
+        /* Top, Right, Bottom, Left */
+        /*margin betweens */
+
         background-color: transparent;
         color: #fa4a0c;
         border: 1px solid #fa4a0c;
@@ -41,22 +56,28 @@ body {
     .homebutt:hover {
         background-color: #fa4a0c;
         color: white;
+        transition: color 1s;
+        /* Smooth color change */
     }
 
-    /* Group 53 */
-    .group53 .group5 {
-        margin-top: -1.3em;
-        margin-left: -4em;
+    /* First Content */
+
+    .group53 {
         text-align: center;
     }
 
+    .group5 {
+        margin-top: -1.3em;
+        margin-left: -4em;
+    }
+
     .group5 img {
-        width: 100%;
-        max-width: 400px;
+        width: 400px;
         padding-bottom: 2em;
     }
 
-    /* Separator */
+    /* SEPARATOR */
+
     .short-separator {
         text-align: center;
     }
@@ -65,34 +86,43 @@ body {
         border: none;
         border-top: 1px solid #ccc;
         margin: 100px 0 0 0;
+        /* Top, Right, Bottom, Left */
         width: 23em;
     }
 
-    /* How the App Works */
-    .how-app .app-works h2 {
-        font-size: 1.7rem;
-        padding: 2rem 0;
-        margin: -5em auto 0;
+    /* First content, How teh App Works */
+
+    .how-app {
+        background-position: center;
     }
 
-    /* Create an Account Section */
+    .app-works h2 {
+        text-align: center;
+        font-size: 1.7rem;
+        padding: 2rem 0 2rem 0;
+        margin: -5em -6.5em 0 1em;  /* Top, Right, Bottom, Left */
+    }
+
+    /* Create an Account Contect Section */
+
     .create-acc {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-        margin: 0 auto;
-        max-width: 600px;
+        margin: 0 -1em 0 10em; /* Top, Right, Bottom, Left */
     }
 
     .account-img {
-        width: 100%;
-        max-width: 400px;
-        margin-bottom: -6em;
+        align-items: center;
+        margin: 0 0 -6em -5em;
+        /* Top, Right, Bottom, Left */
+        width: 400px;
     }
 
     .account {
         text-align: center;
-        margin: 5em auto -6em;
+        margin: 5em -7em -6em -6em; /* Top, Right, Bottom, Left */
+
     }
 
     .account h1 {
@@ -103,46 +133,94 @@ body {
         color: gray;
     }
 
-    /* Explore Varieties Section */
-    .explore, .checkout {
+    /* Explore Varieties Content Section */
+
+    .explore {
         display: flex;
         flex-direction: column;
-        margin: 0 auto;
-        max-width: 600px;
+        margin: 0 -9em 0 2em; /* Top, Right, Bottom, Left */
     }
 
-    .explore .explore-img, .checkout .checkout-img {
-        width: 100%;
-        max-width: 400px;
-        margin: 0 auto;
+    .varieties {
+        text-align: center;
     }
 
-    .varieties h1, .check h1 {
+    .explore-img {
+        align-items: center;
+        width: 400px;
+        margin-left: -5em;
+        margin-top: -6em;
+        margin-bottom: -6em;
+    }
+
+    .varieties h1 {
         color: #fa4a0c;
     }
 
-    /* Download Section */
-    .down {
-        background-color: #252B42;
-        text-align: center;
-        padding: 8em 0 2em;
+    /* Checkout Content Section */
+
+    .checkout {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0em -9em 0em 2em;
+        /* Top, Right, Bottom, Left */
     }
 
+    .check {
+        text-align: center;
+    }
+
+    .checkout-img {
+        align-items: center;
+        margin: -6em 0em -6em -6em;
+        /* Top, Right, Bottom, Left */
+
+    }
+
+    .check h1 {
+        color: #fa4a0c;
+    }
+
+    /* BOTTOM HEADER CONTENT SECTION */
+
+    .down {
+        background-color: #252B42;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        background-repeat: repeat;
+        padding: 8em 12em 2em 0; /* Top, Right, Bottom, Left */
+    }
+
+
     .down-app p {
+        background-position: center;
+        text-align: center;
+        padding: 0 0em 1em 0; /* Top, Right, Bottom, Left */
+        margin: 0em 0em 0em 6em;
+        /* Top, Right, Bottom, Left */
+        width: 100%;
+        font-size: 1rem;
         color: white;
-        padding-bottom: 1em;
     }
 
     .down-app p::before {
-        content: "Most calendars are designed for teams. ";
+        content: "Most calendars are designed for teams. Buy now Try for free";
     }
 
     .down-app h1 {
+        background-position: center;
+        padding: 0em 0em 1em 2em;
+        /* Top, Right, Bottom, Left */
+        margin: 0em -4em 0em 0em;
+        /* Top, Right, Bottom, Left */
+        font-size: 2em;
+        text-align: center;
         color: white;
-        padding-bottom: 1em;
     }
 
-    /* Buttons */
+    /* button in the header image */
+
     .button2 {
         display: flex;
         justify-content: space-between;
@@ -151,6 +229,9 @@ body {
 
     .downbutt {
         padding: 13px 40px;
+        /* Top, Right, Bottom, Left */
+        margin: 0 10px;
+        /*margin betweens */
         background-color: transparent;
         color: White;
         border: 1px solid white;
@@ -158,11 +239,11 @@ body {
         font-size: 1rem;
     }
 
-    .downbutt:first-child::before {
+    .button2 .downbutt:first-child::before {
         content: "Buy now";
     }
 
-    .downbutt:last-child::before {
+    .button2 .downbutt:last-child::before {
         content: "Try for free";
     }
 
@@ -170,7 +251,8 @@ body {
         background-color: #fa4a0c;
     }
 
-    /* Footer */
+    /* FOOTER STYLES */
+
     .footer-content {
         display: flex;
         flex-direction: column;
@@ -179,18 +261,23 @@ body {
     .logo img {
         visibility: hidden;
     }
-
+    
     .social-icon {
         display: flex;
         flex-direction: row;
         font-size: 3em;
-        padding: 0 2rem;
+        padding-left: 8rem;
+        padding-right: 8rem;
     }
 
     .copyright {
+        flex: 1;
         font-size: 12px;
-        margin: 0 auto;
+        margin-left: 7em;
+        margin-right: -14em;
     }
+
+
 }
 
 

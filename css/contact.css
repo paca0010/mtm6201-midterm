@@ -1,5 +1,8 @@
 @media only screen and (max-width: 759px) {
 
+    
+    
+    
     .grid {
         display: grid;
         grid-template-columns: auto;
@@ -101,6 +104,9 @@
 /*****Desktop Styles*****/
 @media only screen and (min-width: 760px) {
 
+    .main-nav {
+        padding-bottom: 2.5em;
+    }
     .grid {
         display: grid;
         grid-template-areas:
@@ -109,6 +115,7 @@
         ;
 
         background-color: #fa4a0c;
+        border-radius: 50px;
     }
 
     .contact {
@@ -124,6 +131,10 @@
 
     .contact h3 {
         padding-bottom: 1em;
+    }
+
+    .contact h3, h1 {
+        text-align: center;
     }
 
     .contact label,

@@ -667,14 +667,12 @@ body {
 
     .social-icon {
         font-size: 3em;
-        padding-left: 7rem;
+        margin-left: 5em;
     }
 
     .copyright {
         flex: 1;
-        font-size: 12px;
-        margin-left: 20em;
-        margin-right: -10em;
+        padding-left: 20em;
     }
 
 }

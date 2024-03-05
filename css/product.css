@@ -53,7 +53,15 @@
 
     .head-pro {
         text-align: center;
-        padding: 5em 20em 10em 20em;
+        padding: 1em 20em 5em 20em;
+        /* Top, Right, Bottom, Left */
+        background-color: #fa4a0c;
+        border-radius: 20px;
+    }
+
+    .head-pro h2 {
+        color: white;
+        font-size: 5em;
     }
 
     .gourmet,
@@ -69,13 +77,27 @@
         /* Add some margin between sections */
     }
 
-    .container2 h2 {
-            color: #fa4a0c;
+    .gourmet h2,
+    .salad h2,
+    .pasta h2,
+    .bbq h2 {
+        color: #fa4a0c;
+    }
+
+    .gourmet p,
+    .salad p,
+    .pasta p,
+    .bbq p {
+        color: black;
+    }
+
+    .head-cont p {
+        color: white;
     }
 
     .product img {
         max-width: 50%;
-        padding: 0em 0em 3em 8em;
+        padding: 3em 0em 3em 8em;
         /* Top, Right, Bottom, Left */
         border-radius: 100%;
         /* JUST EXPERIMENTING THE BORDER RADIUS OF AN IMAGE */
@@ -86,7 +108,7 @@
         /* Align text content to the left */
         padding: 0em 8em 0em 0em;
         /* Top, Right, Bottom, Left */
-        margin: 6em 0em 0em 0em;
+        margin: 10em 0em 0em 0em;
     }
 
 

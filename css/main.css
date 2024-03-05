@@ -136,11 +136,12 @@ body {
     }
 
     /* Explore Varieties Content Section */
-
+    
     .explore {
         display: flex;
         flex-direction: column;
         margin: 0 -9em 0 2em;
+        align-items: center;
         /* Top, Right, Bottom, Left */
     }
 
@@ -165,6 +166,7 @@ body {
     .checkout {
         display: flex;
         flex-direction: column-reverse;
+        align-items: center;
         margin: 0em -9em 0em 2em;
         /* Top, Right, Bottom, Left */
     }
@@ -175,7 +177,7 @@ body {
 
     .checkout-img {
         align-items: center;
-        margin: -6em 0em -6em -6em;
+        margin: 0em 0em -6em 5em;
         /* Top, Right, Bottom, Left */
 
     }
@@ -229,10 +231,12 @@ body {
     .button2 {
         display: flex;
         justify-content: space-between;
-        padding-bottom: 3em;
+        padding: 0em 0em 3em 7em;/* Top, Right, Bottom, Left */
+        align-items: center;
     }
 
     .downbutt {
+        align-items: center;
         padding: 13px 40px;
         /* Top, Right, Bottom, Left */
         margin: 0 10px;
@@ -262,6 +266,7 @@ body {
         display: flex;
         flex-direction: column;
         margin-top: -3em;
+        align-items: center;
     }
 
     .logo img {
@@ -269,19 +274,17 @@ body {
     }
 
     .social-icon {
+        align-items: center;
         display: flex;
-        flex-direction: row;
         font-size: 2em;
-        padding-left: 8rem;
-        padding-right: 8rem;
-        padding-bottom: 1em
+        margin-left: 4em;
+        
     }
 
     .copyright {
         flex: 1;
         font-size: 12px;
-        margin-left: 7em;
-        margin-right: -14em;
+        margin-left: 10em;
     }
 
     .copyright::before {

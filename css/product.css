@@ -64,6 +64,11 @@
         font-size: 5em;
     }
 
+    .head-pro p {
+        color: white;
+        font-size: 1.5em;
+    }
+
     .gourmet,
     .salad,
     .pasta,
@@ -82,6 +87,7 @@
     .pasta h2,
     .bbq h2 {
         color: #fa4a0c;
+        font-size: 2.5em;
     }
 
     .gourmet p,
@@ -89,6 +95,7 @@
     .pasta p,
     .bbq p {
         color: black;
+        font-size: 1.6em;
     }
 
     .head-cont p {
@@ -97,10 +104,10 @@
 
     .product img {
         max-width: 50%;
-        padding: 3em 0em 3em 8em;
+        padding: 0em 0em 0em 0em;
         /* Top, Right, Bottom, Left */
-        border-radius: 100%;
-        /* JUST EXPERIMENTING THE BORDER RADIUS OF AN IMAGE */
+        margin: 3em 0em 3em 13em;
+
     }
 
     .product-info {
@@ -108,9 +115,18 @@
         /* Align text content to the left */
         padding: 0em 8em 0em 0em;
         /* Top, Right, Bottom, Left */
-        margin: 10em 0em 0em 0em;
+        margin: 8em 0em 0em 0em;
+
     }
 
+    .gourmet,
+    .salad,
+    .pasta,
+    .bbq {
+        border: 5px solid #fa4a0c;
+        border-radius: 20px;
+        margin: 10em 5em 10em 5em;/* Top, Right, Bottom, Left */
+    }
 
     /* FOOTER STYLES */
 

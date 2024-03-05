@@ -14,8 +14,6 @@ body {
         padding: 20px;
     }
 
-
-
     .home1 {
         color: gray;
     }
@@ -247,11 +245,11 @@ body {
     }
 
     .button2 .downbutt:first-child::before {
-        content: "Buy now";
+        content: "Buy now" !important;
     }
 
     .button2 .downbutt:last-child::before {
-        content: "Try for free";
+        content: "Try for free" !important;
     }
 
     .downbutt:hover {
@@ -263,6 +261,7 @@ body {
     .footer-content {
         display: flex;
         flex-direction: column;
+        margin-top: -3em;
     }
 
     .logo img {
@@ -272,9 +271,10 @@ body {
     .social-icon {
         display: flex;
         flex-direction: row;
-        font-size: 3em;
+        font-size: 2em;
         padding-left: 8rem;
         padding-right: 8rem;
+        padding-bottom: 1em
     }
 
     .copyright {
@@ -282,6 +282,10 @@ body {
         font-size: 12px;
         margin-left: 7em;
         margin-right: -14em;
+    }
+
+    .copyright::before {
+        content: "Just type what's on your mind and we'll" !important;
     }
 
 }
@@ -316,6 +320,7 @@ body {
 
     .main-nav {
         display: flex;
+        font-size: 1.3em;
     }
 
     .nav-list {
@@ -331,7 +336,7 @@ body {
     }
 
     nav ul li {
-        padding-bottom: 2rem;
+        padding-bottom: 1rem;
 
     }
 
@@ -502,8 +507,17 @@ body {
 
     .account h1 {
         color: #fa4a0c;
+        font-size: 2.5em;
+        text-align: left;
     }
 
+    .account h2 {
+        font-size: 2em;
+    }
+
+    .account p {
+        font-size: 1.3em;
+    }
     /* Explore Varieties Content Section */
 
     .explore {
@@ -526,6 +540,16 @@ body {
 
     .varieties h1 {
         color: #fa4a0c;
+        font-size: 2.5em;
+        text-align: left;
+    }
+
+    .varieties h2 {
+        font-size: 2em;
+    }
+
+    .varieties p {
+        font-size: 1.3em;
     }
 
     /* Checkout Content Section */
@@ -536,7 +560,7 @@ body {
 
     .check {
         flex: 1;
-        padding: 20em 5em 5em 0em;
+        padding: 15em 5em 5em 0em;
         /* Top, Right, Bottom, Left */
     }
 
@@ -549,6 +573,16 @@ body {
 
     .check h1 {
         color: #fa4a0c;
+        font-size: 2.5em;
+        text-align: left;
+    }
+
+    .check h2 {
+        font-size: 2em;
+    }
+
+    .check p {
+        font-size: 1.3em;
     }
 
     /* BOTTOM HEADER CONTENT SECTION */

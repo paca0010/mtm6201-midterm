@@ -41,6 +41,34 @@
         border-radius: 20px;
     }
 
+    /* FOOTER STYLES */
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        margin-top: -3em;
+        align-items: center;
+    }
+
+    .logo img {
+        visibility: hidden;
+    }
+
+    .social-icon {
+        align-items: center;
+        display: flex;
+        font-size: 2em;
+        margin-left: 0em;
+        
+    }
+
+    .copyright {
+        flex: 1;
+        font-size: 12px;
+        margin-left: 5em;
+    }
+
+
 }
 
 

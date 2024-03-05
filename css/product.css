@@ -1,0 +1,63 @@
+
+/**********
+Mobile Styles
+**********/
+
+@media only screen and (max-width: 759px) {
+/**********
+    Products Section
+    **********/
+
+    .product {
+        display: flex;
+        flex-direction: column-reverse;
+        /* Reverse the order of flex items */
+        align-items: center;
+        /* Center align items horizontally */
+    }
+        
+    .container2 h2 {
+        text-align: center;
+        padding: 1em 0em 0em 0em;/* Top, Right, Bottom, Left */
+        color: #fa4a0c;
+    }
+
+    .container2 p {
+        text-align: center;
+        padding: 0em 2em 5em 2em;/* Top, Right, Bottom, Left */
+    }
+
+    .product img {
+        width: 50%;
+        /* Adjust the width of the image */
+    }
+
+}
+
+
+    /***********
+    Products Desktop
+    *********/
+
+    .head-pro {
+        text-align: center;
+        padding: 5em 20em 10em 20em;
+    }
+
+    .gourmet, .salad, .pasta, .bbq {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+        gap: 20px; /* Gap between grid items */
+        margin-bottom: 30px; /* Add some margin between sections */
+    }
+    
+    .product img {
+        max-width: 50%;
+        padding: 0em 0em 3em 8em;/* Top, Right, Bottom, Left */
+    }
+    
+    .product-info {
+        text-align: left; /* Align text content to the left */
+        padding: 0em 8em 0em 0em;/* Top, Right, Bottom, Left */
+        margin: 6em 0em 0em 0em;
+    }

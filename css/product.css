@@ -12,6 +12,12 @@
         padding: 20px;
     }
 
+    .skip-link {
+        text-decoration: none;
+        color:white;
+        padding: .5em 1em;  
+    }
+
     /********** Products Section **********/
 
     .product {
@@ -82,6 +88,12 @@
     /********** Products Desktop *********/
 
 
+
+    .skip-link {
+        text-decoration: none;
+        color:white;
+        padding: .5em 1em;  
+    }
 
     .head-pro {
         text-align: center;

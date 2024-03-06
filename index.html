@@ -22,6 +22,10 @@
 
 <body>
     <div class="container">
+
+        <!-- Skip Link-->
+        <a href="#main" class="skip-link" role="link">Skip to main content</a>
+
         <header class="main-head">
             <nav class="main-nav">
                 <Div class="logo">
@@ -29,15 +33,15 @@
                 </Div>
 
                 <ul class="nav-list">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="product.html">Product</a></li>
-                    <li><a href="#">Faq</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.html" role="navigations">Home</a></li>
+                    <li><a href="product.html" role="navigations">Product</a></li>
+                    <li><a href="#" role="navigations">Faq</a></li>
+                    <li><a href="contact.html" role="navigations">Contact</a></li>
                 </ul>
             </nav>
 
             <!-- Background should be an image located in the css, inside the class name of pophome or hime -->
-            <section class="pophome">
+            <section class="pophome" role="banner">
                 <div class="home1">
                     <p>
                         <b>Food app</b>
@@ -62,10 +66,9 @@
                 </div>
             </section>
 
-            <div class="short-separator">
+            <div class="short-separator" role="separator">
                 <hr class="separator">
             </div>
-
             <section class="how-app">
                 <div class="app-works">
                     <h2>How The App Works</h2>
@@ -73,50 +76,51 @@
             </section>
 
         </header>
+        <div id="skip" class="skip-link" role="skip">
+            <section class="create-acc" role="region">
+                <div class="account-img">
+                    <img src="images/light 5/Rectangle.png" alt="Create an account">
+                </div>
+                <div class="account">
+                    <h1>Create an account</h1>
+                    <h2>Create/login to an existing account to get started</h2>
+                    <p>
+                        An account is created with your email and a desired password
+                    </p>
+                </div>
+            </section>
 
-        <section class="create-acc">
-            <div class="account-img">
-                <img src="images/light 5/Rectangle.png" alt="Create an account">
-            </div>
-            <div class="account">
-                <h1>Create an account</h1>
-                <h2>Create/login to an existing account to get started</h2>
-                <p>
-                    An account is created with your email and a desired password
-                </p>
-            </div>
-        </section>
+            <section class="explore" role="region">
+                <div class="varieties">
+                    <h1>Explore Varieties</h1>
+                    <h2>Shop for your favorites meal as e dey hot</h2>
+                    <p>
+                        Shop for your favorite meals or drinks
+                        and enjoy while doing it.
+                    </p>
+                </div>
+                <div class="explore-img">
+                    <img src="images/light 9/Rectangle.png" alt="Explore Varieties">
+                </div>
+            </section>
 
-        <section class="explore">
-            <div class="varieties">
-                <h1>Explore Varieties</h1>
-                <h2>Shop for your favorites meal as e dey hot</h2>
-                <p>
-                    Shop for your favorite meals or drinks
-                    and enjoy while doing it.
-                </p>
-            </div>
-            <div class="explore-img">
-                <img src="images/light 9/Rectangle.png" alt="Explore Varieties">
-            </div>
-        </section>
-
-        <section class="checkout">
-            <div class="checkout-img">
-                <img src="images/light 10/Rectangle.png" alt="">
-            </div>
-            <div class="check">
-                <h1>Checkout</h1>
-                <h2>
-                    When you done check out
-                    and get it delivered.
-                </h2>
-                <p>
-                    Have a question or special request? Our friendly team is here to help! Contact us anytime for
-                    personalized
-                    assistance and let us make your sweet dreams a reality.</p>
-            </div>
-        </section>
+            <section class="checkout" role="region">
+                <div class="checkout-img">
+                    <img src="images/light 10/Rectangle.png" alt="">
+                </div>
+                <div class="check">
+                    <h1>Checkout</h1>
+                    <h2>
+                        When you done check out
+                        and get it delivered.
+                    </h2>
+                    <p>
+                        Have a question or special request? Our friendly team is here to help! Contact us anytime for
+                        personalized
+                        assistance and let us make your sweet dreams a reality.</p>
+                </div>
+            </section>
+        </div>
 
         <section class="down">
 

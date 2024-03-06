@@ -1,8 +1,14 @@
+
+/**********Mobile Styles**********/
 @media only screen and (max-width: 759px) {
 
-    
-    
-    
+
+    .skip-link {
+        text-decoration: none;
+        color:white;
+        padding: .5em 1em;  
+    }
+
     .grid {
         display: grid;
         grid-template-columns: auto;
@@ -103,6 +109,13 @@
 
 /*****Desktop Styles*****/
 @media only screen and (min-width: 760px) {
+
+
+    .skip-link {
+        text-decoration: none;
+        color:white;
+        padding: .5em 1em;  
+    }
 
     .main-nav {
         padding-bottom: 2.5em;

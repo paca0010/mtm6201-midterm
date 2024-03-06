@@ -14,6 +14,11 @@ body {
         padding: 20px;
     }
 
+    .skip-link {
+        text-decoration: none;
+        color:white; 
+    }
+
     .home1 {
         color: gray;
     }
@@ -314,6 +319,12 @@ body {
         font-family: 'Open Sans', sans-serif;
         color: black;
         margin: auto;
+    }
+
+    .skip-link {
+        text-decoration: none;
+        color:white;
+        padding: .5em 1em;  
     }
 
     .main-head {

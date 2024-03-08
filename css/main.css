@@ -1,17 +1,17 @@
 body {
     font-family: 'Open Sans', sans-serif;
     color: black;
-    margin: auto;
+    margin: 0 auto;
 }
 
 /******MObile Styles******/
-@media only screen and (max-width: 759px) {
+@media screen and (max-width: 759px) {
 
 
     .container {
         max-width: 1200px;
         margin: 0 auto;
-        padding: 20px;
+        
     }
 
 
@@ -70,14 +70,10 @@ body {
         text-align: center;
     }
 
-    .group5 {
-        margin-top: -1.3em;
-        margin-left: -4em;
-    }
-
     .group5 img {
         width: 400px;
-        padding-bottom: 2em;
+        padding-bottom: 9em;
+        margin: 0 0 0 3em;/* Top, Right, Bottom, Left */
     }
 
     /* SEPARATOR */
@@ -89,9 +85,9 @@ body {
     .separator {
         border: none;
         border-top: 1px solid #ccc;
-        margin: 100px 0 0 0;
+        margin: 0 0 0 0;
         /* Top, Right, Bottom, Left */
-        width: 23em;
+        width: 33em;
     }
 
     /* First content, How teh App Works */
@@ -114,7 +110,7 @@ body {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-        margin: 0 -1em 0 10em;
+        margin: 0 -1em 0 15em;
         /* Top, Right, Bottom, Left */
     }
 
@@ -134,6 +130,10 @@ body {
 
     .account h1 {
         color: #fa4a0c;
+    }
+
+    .account h2 {
+        color: black;
     }
 
     .account p {
@@ -267,37 +267,37 @@ body {
 
     /* FOOTER STYLES */
 
-    .footer-content {
-        display: flex;
-        flex-direction: column;
-        margin-top: -3em;
-        align-items: center;
-    }
+    /* .footer-content {
+        /* display: flex;
+        flex-direction: column; */
+        /* margin-top: -3em; */
+        /* align-items: center; */
+    /* } */
 
     .logo img {
         visibility: hidden;
     }
 
     .social-icon {
-        align-items: center;
+        justify-content: center;
         display: flex;
-        font-size: 2em;
-        margin-left: 4em;
+        /* font-size: 2em; */
+        /* margin-left: 4em; */
         
     }
 
     .copyright {
-        flex: 1;
+        /* flex: 1; */
         font-size: 12px;
         margin-left: 10em;
     }
 
-    .copyright::before {
-        content: "Just type what's on your mind and we'll" !important;
-    }
+    
 
 }
-
+/*.copyright::before {
+        content: "Just type what's on your mind and we'll" !important;
+    }
 
 
 
@@ -311,25 +311,20 @@ body {
 
 
 /*****Desktop Styles*****/
-@media only screen and (min-width: 760px) {
+@media screen and (min-width: 760px) {
     
     /*****Desktop Styles*****/
 
     body {
         font-family: 'Open Sans', sans-serif;
         color: black;
-        margin: auto;
+        margin: 0 auto;
     }
 
     .skip-link {
         text-decoration: none;
         color:white;
         padding: .5em 1em;  
-    }
-
-    .main-head {
-        display: grid;
-        padding: 10px;
     }
 
     .main-nav {
@@ -384,13 +379,13 @@ body {
 
     /* CONTAINER */
 
-    .container {
+    /* .container {
         max-width: 100%;
         overflow-x: hidden;
         margin: 0 auto;
         padding: 1.5em;
 
-    }
+    } */
 
     /* Home Page */
 
@@ -574,7 +569,7 @@ body {
 
     .check {
         flex: 1;
-        padding: 15em 5em 5em 0em;
+        padding: 15em 0em 5em 0em;
         /* Top, Right, Bottom, Left */
     }
 
@@ -597,6 +592,7 @@ body {
 
     .check p {
         font-size: 1.3em;
+        color: black;
     }
 
     /* BOTTOM HEADER CONTENT SECTION */
@@ -663,14 +659,14 @@ body {
     .footer-content {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        /* align-items: center; */
         padding-top: 4em;
         padding-bottom: 4em;
     }
 
-    .logo {
+    /* .logo {
         flex: 1;
-    }
+    } */
 
     .logo img {
         width: 15rem;
@@ -681,12 +677,15 @@ body {
 
     .social-icon {
         font-size: 3em;
-        margin-left: 5em;
+        margin: 1em;
     }
 
-    .copyright {
-        flex: 1;
-        padding-left: 20em;
+    /* .copyright p{
+        display: inline-block;
+    }  */
+
+    .mob-copy {
+        display: none;
     }
 
 }

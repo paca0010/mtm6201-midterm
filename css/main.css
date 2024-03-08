@@ -98,12 +98,11 @@ body {
             flex-direction: column-reverse;
             align-items: center;
             margin: o auto;
-            max-width: 100%;
+            width: 100%;
         }
 
         .account-img {
-            max-width: 100%;
-            margin: 0 auto;
+ 
         }
 
         .account {
@@ -143,7 +142,6 @@ body {
 
         .explore-img {
             align-items: center;
-            width: 90%;
             margin: 0 auto;
         }
 
@@ -177,8 +175,6 @@ body {
 
         .checkout-img {
             align-items: center;
-            margin: 0em 0em -6em 5em;
-            /* Top, Right, Bottom, Left */
         }
 
         .check h1 {
@@ -204,17 +200,14 @@ body {
             width: 100%;
             height: auto;
             background-repeat: repeat;
-            padding: 3em 0em 2em 1em;
+            padding: 1em 0em 1em 0em;
             /* Top, Right, Bottom, Left */
         }
 
-
         .down-app p, .down-app h1 {
-            background-position: center;
-            text-align: center;
-            background-size: cover;
+            justify-content: center;
             padding: 1em 0;
-            width: 90%;
+            width: 100%;
             height: auto;
             font-size: 1rem;
             color: white;
@@ -224,12 +217,9 @@ body {
             font-size: 2em;
         }
 
-        .down-app .avail-app {
-            visibility: hidden;
-            margin: -4em;
-        }
 
-        .down-app .mob-app {
+
+        .down-app {
             color: gray;
             text-align: center;
         }
@@ -240,9 +230,7 @@ body {
 
         .button2 {
             display: flex;
-            padding: 0em 0em 3em 5.5em;
-            /* Top, Right, Bottom, Left */
-            text-align: center;
+            justify-content: center;
         }
 
         .downbutt {

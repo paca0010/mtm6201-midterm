@@ -365,16 +365,18 @@ body {
             background-size: cover;
             width: 100%;
             height: auto;
+            padding-bottom: 10em;
             background-repeat: repeat;
+            z-index: 2;
         }
 
         .home1 {
             background-position: center;
             text-align: center;
-            padding: 1.5em 0em 0em 0em;
+            padding: 1em 0em 1em 0em;
             /* Top, Right, Bottom, Left */
             width: 100%;
-            font-size: 1.3rem;
+            font-size: 2rem;
             color: white;
         }
 
@@ -382,19 +384,15 @@ body {
             background-position: center;
             text-align: center;
             padding-top: 1em;
-            padding-bottom: 1em;
+            padding-bottom: 2em;
             width: 100%;
-            font-size: 1.3rem;
+            font-size: 2rem;
             color: white;
         }
 
         .home h1 {
             background-position: center;
-            padding: 0em 5em 0em 5em;
-            /* Top, Right, Bottom, Left */
-            margin: 0em 0em 0em 0em;
-            /* Top, Right, Bottom, Left */
-            font-size: 2.5em;
+            font-size: 4em;
             text-align: center;
             color: white;
         }
@@ -404,6 +402,7 @@ body {
         .button1 {
             text-align: center;
             padding-bottom: 9em;
+            
         }
 
         .homebutt {
@@ -416,7 +415,7 @@ body {
             color: White;
             border: 1px solid white;
             border-radius: 1.2em;
-            font-size: 1.2rem;
+            font-size: 2rem;
         }
 
         .homebutt:hover {
@@ -427,15 +426,16 @@ body {
 
         .group53 {
             text-align: center;
+            z-index: 1;
         }
 
         .group5 {
-            margin-top: -10em;
+            margin-top: -25em;
             margin-left: -7em;
         }
 
         .group5 img {
-            width: 400px;
+            width: 40%;
         }
 
 
@@ -448,7 +448,7 @@ body {
         .separator {
             border: none;
             border-top: 1px solid #ccc;
-            margin: 10px auto;
+            margin-bottom: 3em;
             width: 50%;
         }
 
@@ -470,6 +470,7 @@ body {
         .create-acc {
             display: flex;
             margin-bottom: 12em;
+            padding-top: 5em;
         }
 
         .account-img {
@@ -506,19 +507,17 @@ body {
         .explore {
             display: flex;
             margin-bottom: 12em;
+
         }
 
         .varieties {
             flex: 1;
-            padding: 0em 15em 0em 10em;
-            /* Top, Right, Bottom, Left */
             margin-top: 12em;
-            margin-left: 5em;
         }
 
         .explore-img {
             flex: 1;
-            width: 150%;
+            width: 100%;
         }
 
         .varieties h1 {

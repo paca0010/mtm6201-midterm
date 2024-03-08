@@ -63,12 +63,12 @@ body {
 
         .group53 {
             text-align: center;
+            padding: 0 5em 9em 0; /* Top, Right, Bottom, Left */
         }
 
         .group5 img {
             width: 100%;
-            padding-bottom: 9em;
-            margin: 0 auto;
+            margin: 0 0 2em 0;/* Top, Right, Bottom, Left */
         }
 
         /* SEPARATOR */
@@ -76,9 +76,8 @@ body {
         .separator {
             border: none;
             border-top: 1px solid #ccc;
-            margin: 0
-            /* Top, Right, Bottom, Left */
-            width: 100%;
+            margin: 0 0 -3em 0;/* Top, Right, Bottom, Left */
+           width: 100%;
         }
 
         /* First content, How teh App Works */
@@ -89,7 +88,7 @@ body {
 
         .app-works h2 {
             text-align: center;
-            margin: 0;
+            margin: 0 0 3em 0;/* Top, Right, Bottom, Left */
         }
 
         /* Create an Account Contect Section */
@@ -98,13 +97,13 @@ body {
             display: flex;
             flex-direction: column-reverse;
             align-items: center;
+            margin: o auto;
+            max-width: 100%;
         }
 
         .account-img {
-            align-items: center;
-            margin: 0 0 6em 0em;
-            /* Top, Right, Bottom, Left */
-            width: 400px;
+            max-width: 100%;
+            margin: 0 auto;
         }
 
         .account {
@@ -133,25 +132,34 @@ body {
         .explore {
             display: flex;
             flex-direction: column;
-            margin: 0 -9em 0 2em;
+            margin: 0 auto;
             align-items: center;
-            /* Top, Right, Bottom, Left */
+            
         }
 
         .varieties {
-            text-align: center;
+            align-content: center;
         }
 
         .explore-img {
             align-items: center;
-            width: 400px;
-            margin-left: -10em;
-            margin-top: -6em;
-            margin-bottom: -6em;
+            width: 90%;
+            margin: 0 auto;
         }
 
         .varieties h1 {
             color: #fa4a0c;
+            text-align: center;
+        }
+
+        .varieties h2 {
+            color: black;
+            text-align: center;
+        }
+
+        .varieties p {
+            color: grey;
+            text-align: center;
         }
 
         /* Checkout Content Section */
@@ -160,8 +168,7 @@ body {
             display: flex;
             flex-direction: column-reverse;
             align-items: center;
-            margin: 0em -9em 0em 2em;
-            /* Top, Right, Bottom, Left */
+            margin: 0 auto;
         }
 
         .check {
@@ -172,11 +179,21 @@ body {
             align-items: center;
             margin: 0em 0em -6em 5em;
             /* Top, Right, Bottom, Left */
-
         }
 
         .check h1 {
             color: #fa4a0c;
+        }
+
+        .check h2 {
+            color: #fa4a0c;
+            color: black;
+            text-align: center;
+        }
+
+        .check p {
+            color: grey;
+            text-align: center;
         }
 
         /* BOTTOM HEADER CONTENT SECTION */
@@ -187,44 +204,43 @@ body {
             width: 100%;
             height: auto;
             background-repeat: repeat;
-            padding: 8em 12em 2em 0;
+            padding: 3em 0em 2em 1em;
             /* Top, Right, Bottom, Left */
         }
 
 
-        .down-app p {
+        .down-app p, .down-app h1 {
             background-position: center;
             text-align: center;
-            padding: 0 0em 1em 0;
-            /* Top, Right, Bottom, Left */
-            margin: 0em 0em 0em 6em;
-            /* Top, Right, Bottom, Left */
-            width: 100%;
+            background-size: cover;
+            padding: 1em 0;
+            width: 90%;
+            height: auto;
             font-size: 1rem;
             color: white;
         }
 
-        .down-app p::before {
-            content: "Most calendars are designed for teams. Buy now Try for free";
+        .down-app h1 {
+            font-size: 2em;
         }
 
-        .down-app h1 {
-            background-position: center;
-            padding: 0em 0em 1em 2em;
-            /* Top, Right, Bottom, Left */
-            margin: 0em -4em 0em 0em;
-            /* Top, Right, Bottom, Left */
-            font-size: 2em;
-            text-align: center;
-            color: white;
+        .down-app .avail-app {
+            visibility: hidden;
+            margin: -4em;
         }
+
+        .down-app .mob-app {
+            color: gray;
+            text-align: center;
+        }
+
+
 
         /* button in the header image */
 
         .button2 {
             display: flex;
-            justify-content: space-between;
-            padding: 0em 0em 3em 7em;
+            padding: 0em 0em 3em 1em;
             /* Top, Right, Bottom, Left */
             align-items: center;
         }
@@ -233,7 +249,7 @@ body {
             align-items: center;
             padding: 13px 40px;
             /* Top, Right, Bottom, Left */
-            margin: 0 10px;
+            margin: 0 13px;
             /*margin betweens */
             background-color: transparent;
             color: White;
@@ -243,11 +259,11 @@ body {
         }
 
         .button2 .downbutt:first-child::before {
-            content: "Buy now" !important;
+            content: "Buy now";
         }
 
         .button2 .downbutt:last-child::before {
-            content: "Try for free" !important;
+            content: "Try for free";
         }
 
         .downbutt:hover {
@@ -256,38 +272,10 @@ body {
 
         /* FOOTER STYLES */
 
-        /* .footer-content {
-        /* display: flex;
-        flex-direction: column; */
-        /* margin-top: -3em; */
-        /* align-items: center; */
-        /* } */
-
-        .logo img {
-            visibility: hidden;
-        }
-
-        .social-icon {
-            justify-content: center;
-            display: flex;
-            /* font-size: 2em; */
-            /* margin-left: 4em; */
-
-        }
-
-        .copyright {
-            /* flex: 1; */
-            font-size: 12px;
-            margin-left: 10em;
-        }
-
 
 
     }
 
-    /*.copyright::before {
-        content: "Just type what's on your mind and we'll" !important;
-    }
 
 
 
@@ -618,6 +606,11 @@ body {
             font-size: 2em;
             text-align: center;
             color: white;
+        }
+
+        .down-app .mob-app {
+            margin: -1em;
+            visibility: hidden;
         }
 
         /* button in the header image */

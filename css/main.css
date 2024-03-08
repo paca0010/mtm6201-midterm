@@ -651,6 +651,7 @@ body {
             border: 1px solid white;
             border-radius: 0.5em;
             font-size: 1rem;
+            text-align: center;
         }
 
         .downbutt:hover {

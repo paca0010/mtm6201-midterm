@@ -272,6 +272,10 @@ body {
             align-items: center; 
             text-align: center; 
         }
+
+        .logo {
+           
+        }
         
         .social-icon {
             margin-bottom: 10px; 
@@ -527,7 +531,7 @@ body {
             padding: 0em 15em 0em 10em;
             /* Top, Right, Bottom, Left */
             margin-top: 17em;
-            margin-left: 10em;
+            margin-left: 5em;
         }
 
         .explore-img {

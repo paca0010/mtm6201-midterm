@@ -21,7 +21,8 @@ body {
         color: white;
     }
 
-    .home1, .home p{
+    .home1,
+    .home p {
         color: gray;
     }
 
@@ -59,619 +60,618 @@ body {
     }
 
 
-        /* First Content */
+    /* First Content */
 
-        .group53 {
-            text-align: center;
-            padding: 0 5em 9em 0; /* Top, Right, Bottom, Left */
-        }
+    .group53 {
+        text-align: center;
+        padding: 0 5em 9em 0;
+        /* Top, Right, Bottom, Left */
+    }
 
-        .group5 img {
-            margin: 0 0 2em 0;/* Top, Right, Bottom, Left */
-        }
+    .group5 img {
+        margin: 0 0 2em 0;
+        /* Top, Right, Bottom, Left */
+    }
 
-        /* SEPARATOR */
+    /* SEPARATOR */
 
-        .separator {
-            border: none;
-            border-top: 1px solid #ccc;
-            margin: 0 0 -3em 0;/* Top, Right, Bottom, Left */
-           width: 100%;
-        }
+    .separator {
+        border: none;
+        border-top: 1px solid #ccc;
+        margin: 0 0 -3em 0;
+        /* Top, Right, Bottom, Left */
+        width: 100%;
+    }
 
-        /* First content, How teh App Works */
+    /* First content, How teh App Works */
 
-        .how-app {
-            background-position: center;
-        }
+    .how-app {
+        background-position: center;
+    }
 
-        .app-works h2 {
-            text-align: center;
-            margin: 0 0 3em 0;/* Top, Right, Bottom, Left */
-        }
+    .app-works h2 {
+        text-align: center;
+        margin: 0 0 3em 0;
+        /* Top, Right, Bottom, Left */
+    }
 
-        /* Create an Account Contect Section */
+    /* Create an Account Contect Section */
 
-        .create-acc {
-            display: flex;
-            flex-direction: column-reverse;
-            align-items: center;
-            margin: o auto;
-            width: 100%;
-        }
+    .create-acc {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: o auto;
+        width: 100%;
+    }
 
-        .account-img {
-            align-items: center;
-        }
+    .account-img {
+        align-items: center;
+    }
 
-        .account {
-            justify-content: center;
-            text-align: center;
-            margin: 0 0em 0 0em;
-            /* Top, Right, Bottom, Left */
-            padding-left: 0 0em 0 0;
+    .account {
+        justify-content: center;
+        text-align: center;
+        margin: 0 0em 0 0em;
+        /* Top, Right, Bottom, Left */
+        padding-left: 0 0em 0 0;
 
-        }
+    }
 
-        .account h1 {
-            color: #fa4a0c;
-        }
+    .account h1 {
+        color: #fa4a0c;
+    }
 
-        .account h2 {
-            color: black;
-        }
+    .account h2 {
+        color: black;
+    }
 
-        .account p {
-            color: gray;
-        }
+    .account p {
+        color: gray;
+    }
 
-        /* Explore Varieties Content Section */
+    /* Explore Varieties Content Section */
 
-        .explore {
-            display: flex;
-            flex-direction: column;
-            margin: 0 auto;
-            align-items: center;
-            
-        }
+    .explore {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
 
-        .varieties {
-            align-content: center;
-        }
+    }
 
-        .explore-img {
-            align-items: center;
-            margin: 0 auto;
-        }
+    .varieties {
+        align-content: center;
+    }
 
-        .varieties h1 {
-            color: #fa4a0c;
-            text-align: center;
-        }
+    .explore-img {
+        align-items: center;
+        margin: 0 auto;
+    }
 
-        .varieties h2 {
-            color: black;
-            text-align: center;
-        }
+    .varieties h1 {
+        color: #fa4a0c;
+        text-align: center;
+    }
 
-        .varieties p {
-            color: grey;
-            text-align: center;
-        }
+    .varieties h2 {
+        color: black;
+        text-align: center;
+    }
 
-        /* Checkout Content Section */
+    .varieties p {
+        color: grey;
+        text-align: center;
+    }
 
-        .checkout {
-            display: flex;
-            flex-direction: column-reverse;
-            align-items: center;
-            margin: 0 auto;
-        }
+    /* Checkout Content Section */
 
-        .check {
-            text-align: center;
-        }
+    .checkout {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 0 auto;
+    }
 
-        .checkout-img {
-            align-items: center;
-        }
+    .check {
+        text-align: center;
+    }
 
-        .check h1 {
-            color: #fa4a0c;
-        }
+    .checkout-img {
+        align-items: center;
+    }
 
-        .check h2 {
-            color: #fa4a0c;
-            color: black;
-            text-align: center;
-        }
+    .check h1 {
+        color: #fa4a0c;
+    }
 
-        .check p {
-            color: grey;
-            text-align: center;
-        }
+    .check h2 {
+        color: #fa4a0c;
+        color: black;
+        text-align: center;
+    }
 
-        /* BOTTOM HEADER CONTENT SECTION */
+    .check p {
+        color: grey;
+        text-align: center;
+    }
 
-        .down {
-            background-color: #252B42;
-            background-size: cover;
-            width: 100%;
-            height: auto;
-            background-repeat: repeat;
-            padding: 1em 0em 1em 0em;
-            /* Top, Right, Bottom, Left */
-        }
+    /* BOTTOM HEADER CONTENT SECTION */
 
-        .down-app p, .down-app h1 {
-            justify-content: center;
-            padding: 1em 0;
-            width: 100%;
-            height: auto;
-            font-size: 1rem;
-            color: white;
-        }
+    .down {
+        background-color: #252B42;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        background-repeat: repeat;
+        padding: 1em 0em 1em 0em;
+        /* Top, Right, Bottom, Left */
+    }
 
-        .down-app h1 {
-            font-size: 2em;
-        }
+    .down-app p,
+    .down-app h1 {
+        justify-content: center;
+        padding: 1em 0;
+        width: 100%;
+        height: auto;
+        font-size: 1rem;
+        color: white;
+    }
 
-
-
-        .down-app {
-            color: gray;
-            text-align: center;
-        }
-
-
-
-        /* button in the header image */
-
-        .button2 {
-            display: flex;
-            justify-content: center;
-        }
-
-        .downbutt {
-            align-items: center;
-            padding: 13px 40px;
-            /* Top, Right, Bottom, Left */
-            margin: 0 13px;
-            /*margin betweens */
-            background-color: transparent;
-            color: White;
-            border: 1px solid white;
-            border-radius: 0.5em;
-            font-size: 1rem;
-        }
-
-        .downbutt:hover {
-            background-color: #fa4a0c;
-        }
-        
-
-
-        /* FOOTER STYLES */
-
-        .footer-content {
-            display: flex;
-            flex-direction: column; 
-            align-items: center; 
-            text-align: center; 
-        }
-        
-        .social-icon {
-            margin-bottom: 10px; 
-        }
-        
-        .footer-content .copyright p {
-            margin: 0; 
-        }
-        
-
-
-
+    .down-app h1 {
+        font-size: 2em;
     }
 
 
 
+    .down-app {
+        color: gray;
+        text-align: center;
+    }
 
 
 
+    /* button in the header image */
 
+    .button2 {
+        display: flex;
+        justify-content: center;
+    }
 
+    .downbutt {
+        align-items: center;
+        padding: 13px 40px;
+        /* Top, Right, Bottom, Left */
+        margin: 0 13px;
+        /*margin betweens */
+        background-color: transparent;
+        color: White;
+        border: 1px solid white;
+        border-radius: 0.5em;
+        font-size: 1rem;
+    }
 
+    .downbutt:hover {
+        background-color: #fa4a0c;
+    }
 
 
 
+    /* FOOTER STYLES */
 
-/*****Desktop Styles*****/
-    @media screen and (min-width: 760px) {
-
-        /*****Desktop Styles*****/
-
-        body {
-            font-family: 'Open Sans', sans-serif;
-            color: black;
-            margin: 0 auto;
-        }
-
-        .container {
-            width: 100%;
-            overflow-x: hidden;
-        }
-
-        .skip-link {
-            text-decoration: none;
-            color: white;
-            padding: .5em 1em;
-        }
-
-        .main-nav {
-            display: flex;
-            font-size: 1.3em;
-        }
-
-        .nav-list {
-            display: flex;
-            margin-left: -23px;
-            margin-right: -23px;
-
-        }
-
-        nav ul {
-            list-style-type: none;
-            text-align: right;
-        }
-
-        nav ul li {
-            padding-bottom: 1rem;
-
-        }
-
-        nav ul li a {
-            display: flex;
-            margin-top: 2em;
-            margin-left: 1px;
-            margin-right: 60px;
-            text-decoration: none;
-            color: black;
-        }
-
-        .logo img {
-            margin-right: -5em;
-            margin-left: -5em;
-        }
-
-        /* Hover Effect for Main Nav */
-
-        .nav-list li a {
-            text-decoration: none;
-            color: black;
-            transition: color 1.3s;
-            /* Smooth color change */
-        }
-
-        .nav-list li a:hover {
-            color: #fa4a0c;
-        }
-
-
-
-        /* Home Page */
-
-        .pophome {
-            background-image: url(../images/Rectangle\ 48.png);
-            background-size: cover;
-            width: 100%;
-            height: auto;
-            padding-bottom: 10em;
-            background-repeat: repeat;
-            z-index: 2;
-        }
-
-        .home1 {
-            background-position: center;
-            text-align: center;
-            padding: 1em 0em 1em 0em;
-            /* Top, Right, Bottom, Left */
-            width: 100%;
-            font-size: 2rem;
-            color: white;
-        }
-
-        .home p {
-            background-position: center;
-            text-align: center;
-            padding-top: 1em;
-            padding-bottom: 2em;
-            width: 100%;
-            font-size: 2rem;
-            color: white;
-        }
-
-        .home h1 {
-            background-position: center;
-            font-size: 4em;
-            text-align: center;
-            color: white;
-        }
-
-        /* button in the header image */
-
-        .button1 {
-            text-align: center;
-            padding-bottom: 9em;
-            
-        }
-
-        .homebutt {
-            display: inline-block;
-            padding: 13px 50px;
-            /* Top, Right, Bottom, Left */
-            margin: 0 15px;
-            /*margin betweens */
-            background-color: transparent;
-            color: White;
-            border: 1px solid white;
-            border-radius: 1.2em;
-            font-size: 2rem;
-        }
-
-        .homebutt:hover {
-            background-color: #fa4a0c;
-        }
-
-        /* First Content */
-
-        .group53 {
-            text-align: center;
-            z-index: 1;
-        }
-
-        .group5 {
-            margin-top: -25em;
-            margin-left: -7em;
-        }
-
-        .group5 img {
-            width: 40%;
-        }
-
-
-        /* SEPARATOR */
-
-        .short-separator {
-            text-align: center;
-        }
-
-        .separator {
-            border: none;
-            border-top: 1px solid #ccc;
-            margin-bottom: 3em;
-            width: 50%;
-        }
-
-        /* First content, How teh App Works */
-
-        .how-app {
-            background-position: center;
-        }
-
-        .app-works h2 {
-            text-align: center;
-            font-size: 2rem;
-            padding-top: 2rem;
-            padding-bottom: 1rem;
-        }
-
-        /* Create an Account Contect Section */
-
-        .create-acc {
-            display: flex;
-            margin-bottom: 12em;
-            padding-top: 5em;
-        }
-
-        .account-img {
-            flex: 1;
-            padding: 0em 0em 5em s0em;
-            /* Top, Right, Bottom, Left */
-        }
-
-        .account {
-            flex: 1;
-            padding: 0em 0em 5em 0em;
-            /* Top, Right, Bottom, Left */
-            margin-top: 17em;
-        }
-
-        .account h1 {
-            color: #fa4a0c;
-            font-size: 2.5em;
-            text-align: left;
-        }
-
-        .account h2 {
-            font-size: 2em;
-            color: black;
-        }
-
-        .account p {
-            font-size: 1.3em;
-            color: gray;
-        }
-
-        /* Explore Varieties Content Section */
-
-        .explore {
-            display: flex;
-            margin-bottom: 12em;
-
-        }
-
-        .varieties {
-            flex: 1;
-            margin-top: 12em;
-            margin-right: -15em;
-            margin-left: 15em;
-        }
-
-        .explore-img {
-            flex: 1;
-            width: 100%;
-            margin-left: -5em;
-        }
-
-        .varieties h1 {
-            color: #fa4a0c;
-            font-size: 2.5em;
-            text-align: left;
-        }
-
-        .varieties h2 {
-            font-size: 2em;
-            color: black;
-            text-align: left;
-        }
-
-        .varieties p {
-            font-size: 1.3em;
-            color: gray;
-        }
-
-        /* Checkout Content Section */
-
-        .checkout {
-            display: flex;
-        }
-
-        .check {
-            flex: 1;
-            padding: 15em 0em 5em 0em;
-            /* Top, Right, Bottom, Left */
-        }
-
-
-        .checkout-img {
-            flex: 1;
-            padding: 5em 0em 0em 0em;
-            /* Top, Right, Bottom, Left */
-
-        }
-
-        .check h1 {
-            color: #fa4a0c;
-            font-size: 2.5em;
-            text-align: left;
-        }
-
-        .check h2 {
-            font-size: 2em;
-            color: black; 
-        }
-
-        .check p {
-            font-size: 1.3em;
-            color: black;
-            color: gray;
-        }
-
-        /* BOTTOM HEADER CONTENT SECTION */
-
-        /* Home Page */
-
-        .down {
-            background-image: url(../images/Rectangle\ 47.png);
-            background-size: cover;
-            width: 100%;
-            height: auto;
-            background-repeat: repeat;
-            padding-top: 8em;
-        }
-
-
-        .down-app p {
-            background-position: center;
-            text-align: center;
-            padding-bottom: 2em;
-            width: 100%;
-            font-size: 1.3rem;
-            color: white;
-        }
-
-        .down-app h1 {
-            background-position: center;
-            padding: 0em 5em 0em 5em;
-            /* Top, Right, Bottom, Left */
-            margin: 0em 0em 0em 0em;
-            /* Top, Right, Bottom, Left */
-            font-size: 2em;
-            text-align: center;
-            color: white;
-        }
-
-        .down-app .mob-app {
-            margin: -1em;
-            visibility: hidden;
-        }
-
-        /* button in the header image */
-
-        .button2 {
-            text-align: center;
-            padding-bottom: 9em;
-        }
-
-        .downbutt {
-            display: inline-block;
-            padding: 13px 50px;
-            /* Top, Right, Bottom, Left */
-            margin: 0 10px;
-            /*margin betweens */
-            background-color: transparent;
-            color: White;
-            border: 1px solid white;
-            border-radius: 0.5em;
-            font-size: 1rem;
-            text-align: center;
-        }
-
-        .downbutt:hover {
-            background-color: #fa4a0c;
-        }
-
-
-        /* FOOTER STYLES */
-
-        .footer-content {
-            display: flex;
-            justify-content: space-between;
-            /* align-items: center; */
-            padding-top: 4em;
-            padding-bottom: 4em;
-            overflow-x: hidden;
-        }
-
-        .logo img {
-            width: 15rem;
-            padding-right: 6rem;
-            padding-left: 6em;
-            /* To seperate the logo and nav*/
-        }
-
-        .social-icon {
-            font-size: 3em;
-            margin: 1em;
-        }
-
-        .copyright .desk {
-            text-align: center;
-            margin-left: 10em;
-        }
-
-        .mob-copy {
-            display: none;
-        }
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
     }
+
+    .social-icon {
+        margin-bottom: 10px;
+    }
+
+    .footer-content .copyright p {
+        margin: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 760px) {
+
+    /*****Desktop Styles*****/
+
+    body {
+        font-family: 'Open Sans', sans-serif;
+        color: black;
+        margin: 0 auto;
+    }
+
+    .container {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .skip-link {
+        text-decoration: none;
+        color: white;
+        padding: .5em 1em;
+    }
+
+    .main-nav {
+        display: flex;
+        font-size: 1.3em;
+    }
+
+    .nav-list {
+        display: flex;
+    }
+
+    nav ul {
+        list-style-type: none;
+        text-align: right;
+    }
+
+    nav ul li {
+        padding-bottom: 1rem;
+
+    }
+
+    nav ul li a {
+        display: flex;
+        margin-top: 2em;
+        margin-left: 60px;
+        margin-right: 60px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .logo1 img {
+        padding-left: 4em;
+        padding-right: 30em;
+        padding-top: 1em;
+        width: 15rem;
+    }
+
+    /* Hover Effect for Main Nav */
+
+    .nav-list li a {
+        text-decoration: none;
+        color: black;
+        transition: color 1.3s;
+        /* Smooth color change */
+    }
+
+    .nav-list li a:hover {
+        color: #fa4a0c;
+    }
+
+
+
+    /* Home Page */
+
+    .pophome {
+        background-image: url(../images/Rectangle\ 48.png);
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        padding-bottom: 10em;
+        background-repeat: repeat;
+        z-index: 2;
+    }
+
+    .home1 {
+        background-position: center;
+        text-align: center;
+        padding: 1em 0em 1em 0em;
+        /* Top, Right, Bottom, Left */
+        width: 100%;
+        font-size: 2rem;
+        color: white;
+    }
+
+    .home p {
+        background-position: center;
+        text-align: center;
+        padding-top: 1em;
+        padding-bottom: 2em;
+        width: 100%;
+        font-size: 2rem;
+        color: white;
+    }
+
+    .home h1 {
+        background-position: center;
+        font-size: 4em;
+        text-align: center;
+        color: white;
+    }
+
+    /* button in the header image */
+
+    .button1 {
+        text-align: center;
+        padding-bottom: 9em;
+
+    }
+
+    .homebutt {
+        display: inline-block;
+        padding: 13px 50px;
+        /* Top, Right, Bottom, Left */
+        margin: 0 15px;
+        /*margin betweens */
+        background-color: transparent;
+        color: White;
+        border: 1px solid white;
+        border-radius: 1.2em;
+        font-size: 2rem;
+    }
+
+    .homebutt:hover {
+        background-color: #fa4a0c;
+    }
+
+    /* First Content */
+
+    .group53 {
+        text-align: center;
+        z-index: 1;
+    }
+
+    .group5 {
+        margin-top: -25em;
+        margin-left: -7em;
+    }
+
+    .group5 img {
+        width: 40%;
+    }
+
+
+    /* SEPARATOR */
+
+    .short-separator {
+        text-align: center;
+    }
+
+    .separator {
+        border: none;
+        border-top: 1px solid #ccc;
+        margin-bottom: 3em;
+        width: 50%;
+    }
+
+    /* First content, How teh App Works */
+
+    .how-app {
+        background-position: center;
+    }
+
+    .app-works h2 {
+        text-align: center;
+        font-size: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    /* Create an Account Contect Section */
+
+    .create-acc {
+        display: flex;
+        margin-bottom: 12em;
+        padding-top: 5em;
+    }
+
+    .account-img {
+        flex: 1;
+        padding: 0em 0em 5em 0em;
+        /* Top, Right, Bottom, Left */
+    }
+
+    .account {
+        flex: 1;
+        padding: 0em 0em 5em 0em;
+        /* Top, Right, Bottom, Left */
+        margin-top: 17em;
+    }
+
+    .account h1 {
+        color: #fa4a0c;
+        font-size: 2.5em;
+        text-align: left;
+    }
+
+    .account h2 {
+        font-size: 2em;
+        color: black;
+    }
+
+    .account p {
+        font-size: 1.3em;
+        color: gray;
+    }
+
+    /* Explore Varieties Content Section */
+
+    .explore {
+        display: flex;
+        margin-bottom: 12em;
+
+    }
+
+    .varieties {
+        flex: 1;
+        margin-top: 12em;
+        margin-right: -15em;
+        margin-left: 15em;
+    }
+
+    .explore-img {
+        flex: 1;
+        width: 100%;
+        margin-left: -5em;
+    }
+
+    .varieties h1 {
+        color: #fa4a0c;
+        font-size: 2.5em;
+        text-align: left;
+    }
+
+    .varieties h2 {
+        font-size: 2em;
+        color: black;
+        text-align: left;
+    }
+
+    .varieties p {
+        font-size: 1.3em;
+        color: gray;
+    }
+
+    /* Checkout Content Section */
+
+    .checkout {
+        display: flex;
+    }
+
+    .check {
+        flex: 1;
+        padding: 15em 0em 5em 0em;
+        /* Top, Right, Bottom, Left */
+    }
+
+
+    .checkout-img {
+        flex: 1;
+        padding: 5em 0em 0em 0em;
+        /* Top, Right, Bottom, Left */
+
+    }
+
+    .check h1 {
+        color: #fa4a0c;
+        font-size: 2.5em;
+        text-align: left;
+    }
+
+    .check h2 {
+        font-size: 2em;
+        color: black;
+    }
+
+    .check p {
+        font-size: 1.3em;
+        color: black;
+        color: gray;
+    }
+
+    /* BOTTOM HEADER CONTENT SECTION */
+
+    /* Home Page */
+
+    .down {
+        background-image: url(../images/Rectangle\ 47.png);
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        background-repeat: repeat;
+        padding-top: 8em;
+    }
+
+
+    .down-app p {
+        background-position: center;
+        text-align: center;
+        padding-bottom: 2em;
+        width: 100%;
+        font-size: 1.3rem;
+        color: white;
+    }
+
+    .down-app h1 {
+        background-position: center;
+        padding: 0em 5em 0em 5em;
+        /* Top, Right, Bottom, Left */
+        margin: 0em 0em 0em 0em;
+        /* Top, Right, Bottom, Left */
+        font-size: 2em;
+        text-align: center;
+        color: white;
+    }
+
+    .down-app .mob-app {
+        margin: -1em;
+        visibility: hidden;
+    }
+
+    /* button in the header image */
+
+    .button2 {
+        text-align: center;
+        padding-bottom: 9em;
+    }
+
+    .downbutt {
+        display: inline-block;
+        padding: 13px 50px;
+        /* Top, Right, Bottom, Left */
+        margin: 0 10px;
+        /*margin betweens */
+        background-color: transparent;
+        color: White;
+        border: 1px solid white;
+        border-radius: 0.5em;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .downbutt:hover {
+        background-color: #fa4a0c;
+    }
+
+
+    /* FOOTER STYLES */
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+        padding-top: 4em;
+        padding-bottom: 4em;
+        overflow-x: hidden;
+    }
+
+    .logo img {
+        width: 15rem;
+        padding-right: 6rem;
+        padding-left: 6em;
+        /* To seperate the logo and nav*/
+    }
+
+    .social-icon {
+        font-size: 3em;
+        margin: 1em;
+    }
+
+    .copyright .desk {
+        text-align: center;
+        margin-left: 10em;
+    }
+
+    .mob-copy {
+        display: none;
+    }
+
+}

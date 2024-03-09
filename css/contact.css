@@ -113,9 +113,6 @@
         padding: .5em 1em;  
     }
 
-    .main-nav {
-        padding-bottom: 2.5em;
-    }
     .grid {
         display: grid;
         grid-template-areas:

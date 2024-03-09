@@ -14,12 +14,20 @@ body {
         overflow-x: hidden;
     }
 
-
-
     .skip-link {
         text-decoration: none;
         color: white;
     }
+    /* NAVIGATION STYLE */
+    .nav-list {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+
 
     .home1,
     .home p {
@@ -310,38 +318,34 @@ body {
 
     .main-nav {
         display: flex;
-        font-size: 1.3em;
+        justify-content: flex-end;
+        /* Align items to the right */
+        align-items: center;
+        padding: 1em;
+    }
+
+    .logo1 {
+        margin-right: auto;
+        /* Pushes the logo to the left */
+        padding-bottom: 1em;
     }
 
     .nav-list {
-        display: flex;
-    }
-
-    nav ul {
         list-style-type: none;
-        text-align: right;
-    }
-
-    nav ul li {
-        padding-bottom: 1rem;
-
-    }
-
-    nav ul li a {
+        margin: 0;
+        padding: 0;
         display: flex;
-        margin-top: 2em;
-        margin-left: 60px;
-        margin-right: 60px;
-        text-decoration: none;
-        color: black;
+        font-size: 1.6em;
     }
 
-    .logo1 img {
-        padding-left: 4em;
-        padding-right: 30em;
-        padding-top: 1em;
-        width: 15rem;
+    .nav-list li{
+        margin-right: 3em;
     }
+
+    .nav-list li:last-child {
+        margin-right: 2em;
+    }
+    
 
     /* Hover Effect for Main Nav */
 
@@ -366,34 +370,33 @@ body {
         width: 100%;
         height: auto;
         padding-bottom: 10em;
-        background-repeat: repeat;
-        z-index: 2;
     }
 
     .home1 {
         background-position: center;
         text-align: center;
-        padding: 1em 0em 1em 0em;
+        padding: 1em 0em 0em 0em;
         /* Top, Right, Bottom, Left */
         width: 100%;
-        font-size: 2rem;
-        color: white;
-    }
-
-    .home p {
-        background-position: center;
-        text-align: center;
-        padding-top: 1em;
-        padding-bottom: 2em;
-        width: 100%;
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: white;
     }
 
     .home h1 {
         background-position: center;
         font-size: 4em;
+        padding-left: 4em;
+        padding-right: 4em;
         text-align: center;
+        color: white;
+    }
+
+    .home p {
+        background-position: center;
+        text-align: center;
+        padding-bottom: 1em;
+        width: 100%;
+        font-size: 1.5rem;
         color: white;
     }
 
@@ -401,7 +404,7 @@ body {
 
     .button1 {
         text-align: center;
-        padding-bottom: 9em;
+        padding-bottom: 3em;
 
     }
 
@@ -426,16 +429,15 @@ body {
 
     .group53 {
         text-align: center;
-        z-index: 1;
     }
 
     .group5 {
-        margin-top: -25em;
+        margin-top: -15em;
         margin-left: -7em;
     }
 
     .group5 img {
-        width: 40%;
+        width: 35%;
     }
 
 
@@ -469,7 +471,7 @@ body {
 
     .create-acc {
         display: flex;
-        margin-bottom: 12em;
+        margin-bottom: 8em;
         padding-top: 5em;
     }
 
@@ -481,7 +483,7 @@ body {
 
     .account {
         flex: 1;
-        padding: 0em 0em 5em 0em;
+        padding: 0em 3em 5em 0em;
         /* Top, Right, Bottom, Left */
         margin-top: 17em;
     }
@@ -506,13 +508,13 @@ body {
 
     .explore {
         display: flex;
-        margin-bottom: 12em;
+        margin-bottom: 8em;
 
     }
 
     .varieties {
         flex: 1;
-        margin-top: 12em;
+        margin-top: 15em;
         margin-right: -15em;
         margin-left: 15em;
     }
@@ -548,8 +550,9 @@ body {
 
     .check {
         flex: 1;
-        padding: 15em 0em 5em 0em;
+        padding: 0em 3em 5em 0em;
         /* Top, Right, Bottom, Left */
+        margin-top: 15em;
     }
 
 
@@ -587,29 +590,26 @@ body {
         width: 100%;
         height: auto;
         background-repeat: repeat;
-        padding-top: 8em;
-    }
-
-
-    .down-app p {
-        background-position: center;
-        text-align: center;
-        padding-bottom: 2em;
-        width: 100%;
-        font-size: 1.3rem;
-        color: white;
     }
 
     .down-app h1 {
         background-position: center;
-        padding: 0em 5em 0em 5em;
-        /* Top, Right, Bottom, Left */
-        margin: 0em 0em 0em 0em;
-        /* Top, Right, Bottom, Left */
-        font-size: 2em;
+        font-size: 3em;
         text-align: center;
         color: white;
+        padding-top: 3.5em;
     }
+
+    .down-app p {
+        background-position: center;
+        text-align: center;
+        padding-bottom: 1em;
+        width: 100%;
+        font-size: 1.5em;
+        color: white;
+    }
+
+
 
     .down-app .mob-app {
         margin: -1em;
@@ -620,7 +620,7 @@ body {
 
     .button2 {
         text-align: center;
-        padding-bottom: 9em;
+        padding-bottom: 10em;
     }
 
     .downbutt {

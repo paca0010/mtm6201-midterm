@@ -339,7 +339,7 @@ body {
         margin: 0;
         padding: 0;
         display: flex;
-        font-size: 1.6em;
+        font-size: 1.5em;
     }
 
     .nav-list li{
@@ -652,7 +652,7 @@ body {
         display: flex;
         justify-content: space-between;
         /* align-items: center; */
-        padding-top: 4em;
+        padding-top: 9em;
         padding-bottom: 4em;
         overflow-x: hidden;
     }

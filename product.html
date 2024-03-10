@@ -36,6 +36,7 @@
         </section>
 
         <div id="skip" class="skip-link" role="skip">
+
             <section class="gourmet" aria-label="Gourmet Burger" itemscope itemtype="https://schema.org/Product">
                 <div class="product">
                     <img src="images/side-view-chicken-fitburger-black-bun-with-glass-beer (1).jpg" alt="Burger">
@@ -43,7 +44,8 @@
 
                 <div class="product-info">
                     <h2 itemprop="name">Gourmet Burger</h2>
-                    <p itemprop="description">Sink your teeth into our mouthwatering gourmet burger, featuring a juicy beef patty grilled to
+                    <p itemprop="description">Sink your teeth into our mouthwatering gourmet burger, featuring a juicy
+                        beef patty grilled to
                         perfection
                         and topped with melted cheddar cheese, crispy bacon, fresh lettuce, ripe tomato, and tangy
                         pickles,
@@ -53,11 +55,15 @@
                         of
                         dipping sauce. It's the ultimate indulgence for burger lovers!
                     </p>
-                    <span class="price">$19.99</span>
+                    <span itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                        <meta itemprop="priceCurrency" content="CAD" />
+                        <span class="price">$19.99</span>
+                    </span>
+
                 </div>
             </section>
 
-            <section class="salad">
+            <section class="salad" aria-label="Salad Bowl" itemscope itemtype="https://schema.org/Product">
                 <div class="product">
                     <img src="images/top-view-salad-with-feta-cheese-cutting-board (1).jpg" alt="Salad Bowl"
                         aria-label="Mediterranean Salad Bowl">
@@ -75,11 +81,14 @@
                         and herbaceous vinaigrette. Topped with a sprinkle of toasted pine nuts for added crunch. It's a
                         wholesome and satisfying meal that's bursting with flavor!
                     </p>
-                    <span class="price">$14.99</span>
+                    <span itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                        <meta itemprop="priceCurrency" content="CAD" />
+                        <span class="price">$14.99</span>
+                    </span>
                 </div>
             </section>
 
-            <section class="pasta">
+            <section class="pasta" aria-label="Pasta Alfredo" itemscope itemtype="https://schema.org/Product">
                 <div class="product">
                     <img src="images/dish-prepared-with-grated-cheese-tomatoes (1).jpg" alt="Pasta"
                         aria-label="Chicken Alfredo Pasta">
@@ -97,13 +106,17 @@
                         savory
                         flavors and velvety textures that will leave you craving more. Served with a side of garlic
                         breadsticks
-                        for dipping. It's comfort food at its finest!</p>
+                        for dipping. It's comfort food at its finest!
+                    </p>
+                    <span itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                        <meta itemprop="priceCurrency" content="CAD" />
                         <span class="price3">$21.99</span>
+                    </span>
                 </div>
-                
+
             </section>
 
-            <section class="bbq">
+            <section class="bbq" aria-label="Gourmet Burger" itemscope itemtype="https://schema.org/Product">
                 <div class="product">
                     <img src="images/Oven-Baked-Ribs-SpendWithPennies-4 (1).jpg" alt="BBQ Ribs"
                         aria-label="Mouthwatering BBQ Ribs">
@@ -119,16 +132,20 @@
                         seasonings.
                         Whether you're hosting a backyard barbecue or craving a hearty meal, our BBQ ribs are sure to
                         satisfy
-                        your cravings.</p>
+                        your cravings.
+                    </p>
+                    <span itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                        <meta itemprop="priceCurrency" content="CAD" />
                         <span class="price4">$24.99</span>
+                    </span>
                 </div>
-                
+
             </section>
         </div>
 
-        <footer>
+        <footer itemscope itemtype="http://schema.org/WPFooter">
             <div class="footer-content">
-                <div class="logo">
+                <div class="logo" itemprop="logo">
                     <!-- logo image (left) -->
                     <img src="images/logo-bottom.png" alt="Bella Onojie">
                 </div>

@@ -9,45 +9,45 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" itemscope itemtype="http://schema.org/WebPage">
         <header class="main-head">
             <nav class="main-nav" role="navigation">
-                <Div class="logo1">
+                <Div class="logo1" itemprop="logo">
                     <img src="images/light syete/left.png" alt="logo">
                 </Div>
 
                 <ul class="nav-list">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="product.html">Product</a></li>
-                    <li><a href="#">Faq</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.html" itemprop="url">Home</a></li>
+                    <li><a href="product.html" itemprop="url">Product</a></li>
+                    <li><a href="#" itemprop="url">Faq</a></li>
+                    <li><a href="contact.html" itemprop="url">Contact</a></li>
                 </ul>
             </nav>
 
 
             <div id="skip" class="skip-link" role="skip">
-                <div class="grid">
+                <div class="grid" itemprop="mainEntity">
                     <!-- contact for question -->
-                    <form class="contact" role="form">
+                    <form class="contact" role="form" itemprop="mainEntity" itemscope itemtype="http://schema.org/ContactPage">
                         <h1>Contact Us</h1>
                         <h3>Send us a message</h3>
                         <div>
                             <label for="fullname">Full name</label>
-                            <input type="text" id="fullname" name="fullname" placeholder="Your name">
+                            <input type="text" id="fullname" name="fullname" placeholder="Your name" itemprop="name">
                         </div>
                         <div>
                             <label for="youremail">Email</label>
-                            <input type="Email" id="youremail" placeholder="Email" value="@gmail.com" required>
+                            <input type="Email" id="youremail" placeholder="Email" value="@gmail.com" required itemprop="email">
                         </div>
                         <div>
                             <label for="message">Message</label>
-                            <textarea name="message" id="message"></textarea>
+                            <textarea name="message" id="message" itemprop="description"></textarea>
                         </div>
-                        <button type="button">Send</button>
+                        <button type="button" itemprop="submit">Send</button>
                     </form>
 
                     <!-- Location -->
-                    <div class="location" role="contentinfo">
+                    <div class="location" role="contentinfo" itemprop="mainEntity" itemscope itemtype="http://schema.org/Place">
                         <h1>Location</h1>
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22432.818746560606!2d-75.77195146026213!3d45.34674629719087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1701218175510!5m2!1sen!2sca"
@@ -57,9 +57,9 @@
                 </div>
             </div>
 
-            <footer>
+            <footer itemscope itemtype="http://schema.org/WPFooter">
                 <div class="footer-content" role="contentinfo">
-                    <div class="logo">
+                    <div class="logo" itemprop="logo">
                         <!-- logo image (left) -->
                         <img src="images/logo-bottom.png" alt="Bella Onojie">
                     </div>

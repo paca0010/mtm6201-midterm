@@ -80,8 +80,9 @@
         margin-bottom: 10px;
     }
 
-    .copyright p {
+    .copyright {
         font-size: 1em;
+        flex: 1;
     }
 
     

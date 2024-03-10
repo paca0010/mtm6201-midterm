@@ -87,6 +87,10 @@
         flex-direction: column;
     }
 
+    .footer-content .logo {
+        margin-top: -5em;
+    }
+
     .social-icon {
         display: flex;
         flex-direction: row;
@@ -96,10 +100,9 @@
     }
 
     .copyright {
-        flex: 1;
-        font-size: 12px;
-        margin-left: 7em;
-        margin-right: -14em;
+        padding: 1em 0em 1em 0em;/* Top, Right, Bottom, Left */
+        font-size: 1em;
+
     }
 }
 

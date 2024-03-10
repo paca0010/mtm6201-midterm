@@ -14,8 +14,8 @@
 
     .skip-link {
         text-decoration: none;
-        color:white;
-        padding: .5em 1em;  
+        color: white;
+        padding: .5em 1em;
     }
 
     /********** Products Section **********/
@@ -28,25 +28,42 @@
         /* Center align items horizontally */
     }
 
-    .container2 h2 {
+    .product-info {
         text-align: center;
-        padding: 1em 0em 0em 0em;
-        /* Top, Right, Bottom, Left */
-        color: #fa4a0c;
     }
 
-    .container2 p {
-        text-align: center;
-        padding: 0em 2em 5em 2em;
-        /* Top, Right, Bottom, Left */
+    .product-info h2 {
+        color: #fa4a0c;
+        font-size: 2em;
+        padding-top: 1em;
+    }
+
+    .product-info p {
+        color: black;
+        font-size: 1.5em;
+        padding-top: 1em;
     }
 
     .product img {
         width: 50%;
         /* Adjust the width of the image */
         border-radius: 20px;
+        padding-top: 1em;
     }
 
+    .head-pro {
+        text-align: center;
+    }
+
+    .head-cont h2 {
+        color: #fa4a0c;
+        font-size: 2.5em;
+    }
+
+    .head-cont p {
+        font-size: 1.5em;
+    }
+    
     /* FOOTER STYLES */
 
     .footer-content {
@@ -60,13 +77,12 @@
         align-items: center;
         display: flex;
         font-size: 2em;
-  
+
     }
 
-    .copyright {
-        flex: 1;
-        font-size: 12px;
-        margin-left: 5em;
+    .copyright p {
+        font-size: 1em;
+        margin-left: -18em;
     }
 
 }
@@ -79,8 +95,8 @@
 
     .skip-link {
         text-decoration: none;
-        color:white;
-        padding: .5em 1em;  
+        color: white;
+        padding: .5em 1em;
     }
 
     .head-pro {
@@ -157,7 +173,8 @@
     .bbq {
         border: 5px solid #fa4a0c;
         border-radius: 20px;
-        margin: 10em 5em 10em 5em;/* Top, Right, Bottom, Left */
+        margin: 10em 5em 10em 5em;
+        /* Top, Right, Bottom, Left */
     }
 
     /* FOOTER STYLES */
@@ -187,10 +204,9 @@
     }
 
     .copyright {
-        flex: 1;
-        font-size: 12px;
+        font-size: 1em;
         margin-left: 20em;
-        margin-right: -10em;
+        margin-right: 8em;
     }
 
 }

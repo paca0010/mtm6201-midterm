@@ -191,4 +191,32 @@
         border-radius: 50px;
     }
 
+    /* FOOTER STYLES */
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+        padding-top: 5em;
+        padding-bottom: 4em;
+        overflow-x: hidden;
+    }
+
+    .logo img {
+        width: 15rem;
+        padding-right: 5rem;
+        padding-left: 5em;
+        /* To seperate the logo and nav*/
+    }
+
+    .social-icon {
+        font-size: 3em;
+    }
+
+    .copyright {
+        text-align: center;
+        margin-left: 5em;
+    }
+
+
 }

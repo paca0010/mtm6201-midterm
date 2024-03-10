@@ -32,6 +32,28 @@
         text-align: center;
     }
 
+    .price {
+        color: #fa4a0c;
+        font-size: 2em;
+    }
+
+    .price3 {
+        color: #fa4a0c;
+        font-size: 2em;
+    }
+
+    .price4 {
+        color: #fa4a0c;
+        font-size: 2em;
+    }
+
+    .gourmet, .salad, .pasta, .bbq {
+        border: 5px solid #fa4a0c;
+        border-radius: 20px;
+        margin: 5em 1em 5em 1em;
+        /* Top, Right, Bottom, Left */
+    }
+
     .product-info h2 {
         color: #fa4a0c;
         font-size: 2em;
@@ -170,6 +192,21 @@
         /* Top, Right, Bottom, Left */
         margin: 8em 0em 0em 0em;
 
+    }
+
+    .price {
+        color: #fa4a0c;
+        font-size: 2em;
+    }
+
+    .price3 {
+        color: #fa4a0c;
+        font-size: 2em;
+    }
+
+    .price4 {
+        color: #fa4a0c;
+        font-size: 2em;
     }
 
     .gourmet,

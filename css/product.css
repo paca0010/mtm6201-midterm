@@ -172,11 +172,17 @@
 
     .gourmet,
     .salad,
-    .pasta,
-    .bbq {
+    .pasta {
         border: 5px solid #fa4a0c;
         border-radius: 20px;
         margin: 10em 5em 10em 5em;
+        /* Top, Right, Bottom, Left */
+    }
+
+    .bbq {
+        border: 5px solid #fa4a0c;
+        border-radius: 20px;
+        margin: 10em 5em 2em 5em;
         /* Top, Right, Bottom, Left */
     }
 

@@ -18,6 +18,7 @@ body {
         text-decoration: none;
         color: white;
     }
+
     /* NAVIGATION STYLE */
     .nav-list {
         display: none;
@@ -272,6 +273,7 @@ body {
         flex-direction: column;
         align-items: center;
     }
+
     .footer-content .logo {
         visibility: hidden;
     }
@@ -340,14 +342,14 @@ body {
         font-size: 1.5em;
     }
 
-    .nav-list li{
+    .nav-list li {
         margin-right: 3em;
     }
 
     .nav-list li:last-child {
         margin-right: 2em;
     }
-    
+
 
     /* Hover Effect for Main Nav */
 
@@ -516,9 +518,8 @@ body {
 
     .varieties {
         flex: 1;
-        margin-top: 15em;
-        margin-right: -15em;
-        margin-left: 15em;
+        padding: 1rem 1rem 1rem 4rem;
+        align-self: center;
     }
 
     .explore-img {

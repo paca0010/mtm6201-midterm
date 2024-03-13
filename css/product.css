@@ -50,7 +50,7 @@
     .gourmet, .salad, .pasta, .bbq {
         border: 5px solid #fa4a0c;
         border-radius: 20px;
-        margin: 4em 0em 4em 0em;
+        margin: 2em 0em 4em 0em;
         /* Top, Right, Bottom, Left */
         padding: 0em 1.5em 0em 1.5em ;
     }

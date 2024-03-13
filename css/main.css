@@ -20,16 +20,34 @@ body {
     }
 
     /* NAVIGATION STYLE */
-    .nav-list {
-        display: none;
+    
+    .links-container {
+        flex-direction: column;
+        align-items: flex-start;
+
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 10;
+        width: 300px;
+
+        background-color: var(--color-1);
+        box-shadow: -5px rgba(0, 0, 0, 0.25);
     }
 
-    .hamburger {
+    nav a {
+        box-sizing: border-box;
+        height: auto;
+        width: 100%;
+        padding: 20px 30px;
+        justify-content: flex-start;
+    }
+
+    .open-sidebar-button, .close-sidebar-button {
         display: block;
     }
 
-
-
+    /* THE HEADER CONTENT */
     .home1,
     .home p {
         color: gray;
@@ -320,50 +338,52 @@ body {
         padding: .5em 1em;
     }
 
-    .main-nav {
-        display: flex;
-        justify-content: flex-end;
-        /* Align items to the right */
-        align-items: center;
-        padding: 1em;
-    }
+   nav {
+    height: 60px;
+    background-color: var(--color-1);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   }
 
-    .logo1 {
-        margin-right: auto;
-        /* Pushes the logo to the left */
-        padding-bottom: 1em;
-    }
+   .links-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+   }
 
-    .nav-list {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        font-size: 1.5em;
-    }
+   nav a {
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text-color);
+   }
 
-    .nav-list li {
-        margin-right: 3em;
-    }
+   nav a:hover {
+    background-color: var(--accent-color);
+   }
 
-    .nav-list li:last-child {
-        margin-right: 2em;
-    }
+   nav .home-link {
+    margin-right: auto;
+   }
 
+   nav svg {
+    fill: var(--text-color);
+   }
 
-    /* Hover Effect for Main Nav */
+   #sidebar-active {
+    display: none;
+   }
 
-    .nav-list li a {
-        text-decoration: none;
-        color: black;
-        transition: color 1.3s;
-        /* Smooth color change */
-    }
-
-    .nav-list li a:hover {
-        color: #fa4a0c;
-    }
-
+   .open-sidebar-button, .close-sidebar-button {
+    padding: 0 20px;
+    display: none;
+   }
 
 
     /* Home Page */

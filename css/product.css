@@ -124,6 +124,38 @@
         padding: .5em 1em;
     }
 
+
+    .main-nav {
+        display: flex;
+        justify-content: flex-end;
+        /* Align items to the right */
+        align-items: center;
+        padding: 1em;
+    }
+
+    .logo1 {
+        margin-right: auto;
+        /* Pushes the logo to the left */
+        margin-bottom: -5em; /*TRYING TO FIX MY NAV SO I SEPERATED THE IMG LOGO AND NAV*/
+    }
+
+    .nav-list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        font-size: 1.5em;
+        padding-bottom: 2em;
+    }
+
+    .nav-list li {
+        margin-right: 3em;
+    }
+
+    .nav-list li:last-child {
+        margin-right: 2em;
+    }
+
     .head-pro {
         text-align: center;
         margin: 0em 5em 0em 5em;

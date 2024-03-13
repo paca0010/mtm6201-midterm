@@ -30,21 +30,30 @@ body {
         right: 0;
         z-index: 10;
         width: 300px;
-
-        background-color: var(--color-1);
-        box-shadow: -5px rgba(0, 0, 0, 0.25);
+        padding-bottom: 5em;
+        background-color: #fa4a0c;
+        box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
+        transition: 1s ease-out;
     }
+
+
 
     nav a {
         box-sizing: border-box;
         height: auto;
         width: 100%;
-        padding: 20px 30px;
+        padding: 0em 6em 0em 1em;/* Top, Right, Bottom, Left */
+        margin: 1em 0em 0em 0em;
         justify-content: flex-start;
     }
 
     .open-sidebar-button, .close-sidebar-button {
+        padding: 1em;
         display: block;
+    }
+
+    #sidebar-active:checked ~ .links-container {
+        right: 100;
     }
 
     /* THE HEADER CONTENT */
@@ -338,53 +347,51 @@ body {
         padding: .5em 1em;
     }
 
-   nav {
+   
+nav{
     height: 60px;
     background-color: var(--color-1);
     display: flex;
     justify-content: flex-end;
     align-items: center;
-   }
-
-   .links-container {
+  }
+  .links-container{
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: end;
     align-items: center;
-   }
-
-   nav a {
+    justify-content: end;
+  }
+  nav a{
+    font-size: 1.5em;
     height: 100%;
+    margin-right: 3em;
     padding: 0 20px;
     display: flex;
     align-items: center;
     text-decoration: none;
     color: var(--text-color);
-   }
-
-   nav a:hover {
+  }
+  nav a:hover{
     background-color: var(--accent-color);
-   }
-
-   nav .home-link {
+  }
+  nav .home-link{
     margin-right: auto;
-   }
-
-   nav svg {
+  }
+  nav svg{
     fill: var(--text-color);
-   }
-
-   #sidebar-active {
+  }
+  #sidebar-active{
     display: none;
-   }
-
-   .open-sidebar-button, .close-sidebar-button {
-    padding: 0 20px;
+  }
+  .open-sidebar-button, .close-sidebar-button{
     display: none;
-   }
+  }
 
+   .main-head img {
+       margin-right: auto;
+    }
 
     /* Home Page */
 

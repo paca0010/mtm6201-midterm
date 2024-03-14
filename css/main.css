@@ -348,49 +348,35 @@ body {
     }
 
    
-nav{
-    height: 60px;
-    background-color: var(--color-1);
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-  .links-container{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: end;
-  }
-  nav a{
-    font-size: 1.5em;
-    height: 100%;
-    margin-right: 3em;
-    padding: 0 20px;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: var(--text-color);
-  }
-  nav a:hover{
-    background-color: var(--accent-color);
-  }
-  nav .home-link{
-    margin-right: auto;
-  }
-  nav svg{
-    fill: var(--text-color);
-  }
-  #sidebar-active{
-    display: none;
-  }
-  .open-sidebar-button, .close-sidebar-button{
-    display: none;
-  }
+    .main-nav {
+        display: flex;
+        justify-content: flex-end;
+        /* Align items to the right */
+        align-items: center;
+        padding: 1em;
+    }
 
-   .main-head img {
-       margin-right: auto;
+    .main-nav a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .main-nav a:hover {
+        color: #fa4a0c;
+    }
+
+    .logo1 {
+        margin-right: auto;
+        /* Pushes the logo to the left */
+        margin-bottom: -5em; /*TRYING TO FIX MY NAV SO I SEPERATED THE IMG LOGO AND NAV*/
+    }
+
+    .nav-list li {
+        margin-right: 3em;
+    }
+
+    .nav-list li:last-child {
+        margin-right: 2em;
     }
 
     /* Home Page */

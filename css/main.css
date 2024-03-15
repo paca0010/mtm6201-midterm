@@ -20,7 +20,7 @@ body {
     }
 
     /* NAVIGATION STYLE */
-    
+
     .links-container {
         flex-direction: column;
         align-items: flex-start;
@@ -42,17 +42,19 @@ body {
         box-sizing: border-box;
         height: auto;
         width: 100%;
-        padding: 0em 6em 0em 1em;/* Top, Right, Bottom, Left */
+        padding: 0em 6em 0em 1em;
+        /* Top, Right, Bottom, Left */
         margin: 1em 0em 0em 0em;
         justify-content: flex-start;
     }
 
-    .open-sidebar-button, .close-sidebar-button {
+    .open-sidebar-button,
+    .close-sidebar-button {
         padding: 1em;
         display: block;
     }
 
-    #sidebar-active:checked ~ .links-container {
+    #sidebar-active:checked~.links-container {
         right: 100;
     }
 
@@ -287,6 +289,20 @@ body {
         font-size: 1rem;
     }
 
+    .homebutt1 {
+        padding: 13px 50px;
+        margin: 0 0 15px 0;
+        background-color: transparent;
+        color: #fa4a0c;
+        border: 1px solid #fa4a0c;
+        border-radius: 1.2em;
+        font-size: 1.2rem;
+    }
+
+    .downbutt:hover {
+        background-color: #fa4a0c;
+    }
+
     .downbutt:hover {
         background-color: #fa4a0c;
     }
@@ -347,7 +363,7 @@ body {
         padding: .5em 1em;
     }
 
-   
+
     .main-nav {
         display: flex;
         justify-content: flex-end;
@@ -368,7 +384,8 @@ body {
     .logo1 {
         margin-right: auto;
         /* Pushes the logo to the left */
-        margin-bottom: -5em; /*TRYING TO FIX MY NAV SO I SEPERATED THE IMG LOGO AND NAV*/
+        margin-bottom: -5em;
+        /*TRYING TO FIX MY NAV SO I SEPERATED THE IMG LOGO AND NAV*/
     }
 
     .nav-list li {
@@ -422,7 +439,8 @@ body {
     .button1 {
         text-align: center;
         padding-bottom: 3em;
-
+        margin-left: 40em;
+        margin-right: 40em;
     }
 
     .homebutt {
@@ -431,6 +449,17 @@ body {
         /* Top, Right, Bottom, Left */
         margin: 0 15px;
         /*margin betweens */
+        background-color: transparent;
+        color: White;
+        border: 1px solid white;
+        border-radius: 1.2em;
+        font-size: 2rem;
+    }
+
+    .homebutt1 {
+        display: inline-block;
+        padding: 13px 50px;
+        /* Top, Right, Bottom, Left */
         background-color: transparent;
         color: White;
         border: 1px solid white;

@@ -133,19 +133,19 @@
         padding: 1em;
     }
 
+    .main-nav a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .main-nav a:hover {
+        color: #fa4a0c;
+    }
+
     .logo1 {
         margin-right: auto;
         /* Pushes the logo to the left */
         margin-bottom: -5em; /*TRYING TO FIX MY NAV SO I SEPERATED THE IMG LOGO AND NAV*/
-    }
-
-    .nav-list {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        font-size: 1.5em;
-        padding-bottom: 2em;
     }
 
     .nav-list li {

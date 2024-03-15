@@ -158,6 +158,14 @@
         border-radius: 50px;
     }
 
+    .grid h1 {
+        font-size: 3em;
+    }
+
+    .grid h3 {
+        font-size: 2em;
+    }
+
     .contact {
         grid-area: contact;
         padding: 20px;
@@ -179,13 +187,14 @@
 
     .contact label,
     input,
-    textarea {
+    textarea, button {
         width: 100%;
-        padding: 10px 10px 10px 10px;
+        padding: .5em .5em .5em .5em;
         /* Top, Right, Bottom, Left */
-        margin: 20px 0px 20px 0px;
+        margin: 1em 0em 1em 0em;
         border: 1px solid #ccc;
         border-radius: 20px;
+        font-size: 1.5em;
     }
 
     .contact button:hover {
@@ -217,7 +226,7 @@
     .location iframe {
         align-items: center;
         width: 90%;
-        margin: 0em 0em 0em 1.7em;
+        margin: 7em 0em 0em 2em;
         /* Top, Right, Bottom, Left */
         border-radius: 50px;
     }

@@ -458,6 +458,7 @@ body {
     /* button in the header image */
 
     .button1 {
+        display: flex;
         text-align: center;
         padding-bottom: 3em;
         margin-left: 40em;
@@ -481,6 +482,8 @@ body {
         display: inline-block;
         padding: 13px 50px;
         /* Top, Right, Bottom, Left */
+        margin: 0 15px;
+        /*margin betweens */
         background-color: transparent;
         color: White;
         border: 1px solid white;
@@ -687,6 +690,9 @@ body {
     .button2 {
         text-align: center;
         padding-bottom: 10em;
+        display: flex;
+        margin-left: 40em;
+        margin-right: 40em;
     }
 
     .downbutt {
@@ -699,7 +705,7 @@ body {
         color: White;
         border: 1px solid white;
         border-radius: 0.5em;
-        font-size: 1rem;
+        font-size: 1.5rem;
         text-align: center;
     }
 

@@ -40,26 +40,26 @@ body {
 
     nav {
         text-align: center;
-      }
-      
-      nav ul {
+    }
+
+    nav ul {
         list-style-type: none;
         padding: 0;
-      }
-      
-      nav ul li {
+    }
+
+    nav ul li {
         display: block;
         margin-top: 2.5em;
         margin-bottom: 2.5em;
-        font-size: 1.3em;
-      }
-      
-      nav ul li a {
+        font-size: 1em;
+    }
+
+    nav ul li a {
         text-decoration: none;
         font-size: 2em;
-      }
+    }
 
-      .main-nav a {
+    .main-nav a {
         text-decoration: none;
         color: black;
     }
@@ -67,7 +67,7 @@ body {
     .main-nav a:hover {
         color: #fa4a0c;
     }
-      
+
 
     .open-sidebar-button,
     .close-sidebar-button {

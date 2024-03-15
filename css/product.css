@@ -18,6 +18,36 @@
         padding: .5em 1em;
     }
 
+    nav {
+        text-align: center;
+      }
+      
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      
+      nav ul li {
+        display: block;
+        margin-top: 2.5em;
+        margin-bottom: 2.5em;
+        font-size: 1em;
+      }
+      
+      nav ul li a {
+        text-decoration: none;
+        font-size: 2em;
+      }
+
+      .main-nav a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .main-nav a:hover {
+        color: #fa4a0c;
+    }
+
     /********** Products Section **********/
 
     .product {
